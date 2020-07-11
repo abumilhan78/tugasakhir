@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('askonline.master');
 });
 Route::get('/master', function() {
     return view('adminlte/master');
